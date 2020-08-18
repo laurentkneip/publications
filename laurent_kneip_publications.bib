@@ -102,6 +102,8 @@
 
 @STRING{THREEDPVT = {Proceedings of the International Symposium on 3D Data Processing, Visualization and Transmission ({3DPVT})}}
 
+@STRING{THREEDV = {Proceedings of the International Conference on 3D Vision ({3DV})}}
+
 @STRING{TRA = {{IEEE} Transactions on Robotics and Automation}}
 
 @STRING{TRO = {{IEEE} Transactions on Robotics ({T-RO})}}
@@ -117,11 +119,62 @@
 
 %% JOURNAL PAPERS
 
+@ARTICLE{tsakiris20,
+  Author = {Tsakiris,~M.~C. and Peng,~L. and Conca,~A. and Kneip,~L. and Shi,~Y. and Choi,~H.},
+  Title = {An Algebraic-Geometric Approach for Linear Regression Without Correspondences},
+  Journal = {IEEE Transactions on Information Theory},
+  Year = {2020},
+  Note = {Early Online Access}
+}
+
+@ARTICLE{cao20,
+  Author = {Cao,~Yuchen and Hu,~Lan and Kneip,~Laurent},
+  Title = {Representations and Benchmarking of Modern Visual SLAM Systems},
+  Journal = {MDPI Sensors},
+  Volume = {20},
+  Issue = {9},
+  Pages = {2572},
+  Year = {2020}
+}
+
+@ARTICLE{yu20,
+  Author = {Yu,~Peihong and Wang,~Cen and Wang,~Zhirui and Yu,~Jingyi and Kneip,~Laurent},
+  Title = {Accurate Line-Based Relative Pose Estimation With Camera Matrices},
+  Journal = {IEEE Access},
+  Year = {2020},
+  Volume = {8},
+  Pages = {88294--88307},
+  Note = {Open access}
+}
+
+@ARTICLE{zhao18,
+  Author = {J Zhao and L Kneip and Y He and J Ma},
+  Title = {Minimal Case Relative Pose Computation using Ray-Point-Ray Features},
+  Journal = PAMI,
+  Year = {2020},
+  Volume = {42},
+  Issue = {5},
+  Pages = {1176--1190}
+}
+
+@ARTICLE{zhou18tro,
+  Author = {Y Zhou and H Li and L Kneip},
+  Title = {{Canny-VO: Visual Odometry with RGB-D Cameras based on Geometric 3D-2D Edge Alignment}},
+  Journal = TRO,
+  Year = {2019},
+  Volume = {35},
+  Number = {1},
+  Pages = {1--16},
+}
+
 @ARTICLE{campbell18,
   Author = {D Campbell and L Petersson and L Kneip and H Li},
   Title = {Globally-Optimal Inlier Set Maximisation for Camera Pose and Correspondence Estimation},
   Journal = PAMI,
-  Year = {2018}
+  Year = {2020},
+  Volume = {42},
+  Issue = {2},
+  Pages = {328--342}
 }
 
 @ARTICLE{scaramuzza14,
@@ -166,7 +219,127 @@
 
 %% CONFERENCE PAPERS
 
+%2020
+
+@INPROCEEDINGS{pengxin20,
+  Author = {Peng,~X. and Wang,~Y. and Gao,~L. and Kneip,~L.},
+  Title = {Globally-Optimal Event Camera Motion Estimation},
+  Booktitle = ECCV,
+  Address = {Glasgow, UK},
+  Month = {August},
+  Year = {2020}
+}
+
+@INPROCEEDINGS{ding20,
+  Author = {Ding,~T. and Yang,~Y. and Zhu,~Z. and Robinson,~D. and Vidal,~R. and Kneip,~L. and Tsakiris,~M.},
+  Title = {Robust Homography Estimation via Dual Principal Component Pursuit},
+  Booktitle = CVPR,
+  Address = {Seattle, USA},
+  Month = {June},
+  Year = {2020}
+}
+
+@INPROCEEDINGS{zhao20,
+  Author = {Zhao,~J. and Xu,~W. and Kneip,~L.},
+  Title = {A Certifiably Globally Optimal Solution to Generalized Essential Matrix Estimation},
+  Booktitle = CVPR,
+  Address = {Seattle, USA},
+  Month = {June},
+  Year = {2020}
+}
+
+@INPROCEEDINGS{wang20,
+  Author = {Wang,~Y. and Huang,~K. and Peng,~X. and Li,~H. and Kneip,~L.},
+  Title = {Reliable Frame-To-Frame Motion Estimation for Vehicle-Mounted Surround-View Camera Systems},
+  Booktitle = ICRA,
+  Address = {Paris, France},
+  Month = {May},
+  Year = {2020}
+}
+
+@INPROCEEDINGS{ouyang20,
+  Author = {Ouyang,~Z. and Hu,~L. and Lu,~Y. and Wang,~Z. and Peng,~X. and Kneip,~L.},
+  Title = {Online Calibration of Exterior Orientations of a Vehicle-Mounted Surround-View Camera System},
+  Booktitle = ICRA,
+  Address = {Paris, France},
+  Month = {May},
+  Year = {2020}
+}
+
+@INPROCEEDINGS{gao20,
+  Author = {Gao,~L. and Su,~J. and Cui,~J. and Zeng,~X. and Peng,~X. and Kneip,~L.},
+  Title = {Efficient Globally-Optimal Correspondence-Less Visual Odometry for Planar Ground Vehicles},
+  Booktitle = ICRA,
+  Address = {Paris, France},
+  Month = {May},
+  Year = {2020}
+}
+
+%2019
+
+@INPROCEEDINGS{pengxin19,
+  Author = {X Peng and J Cui and L Kneip},
+  Title = {Articulated Multi-Perspective Cameras and Their Application to Truck Motion Estimation},
+  Booktitle = IROS,
+  Address = {Macau, China},
+  Month = {November},
+  Year = {2019}
+}
+
+@INPROCEEDINGS{xu19,
+  Author = {W Xu and H Lan and M C Tsakiris and L Kneip},
+  Title = {Online Stability Improvement of Gr\"obner Basis Solvers using Deep Learning},
+  Booktitle = THREEDV,
+  Address = {Quebec City, Canada},
+  Month = {September},
+  Year = {2019},
+  Note = {Oral Presentation}
+}
+
+@INPROCEEDINGS{huang19,
+  Author = {K Huang and Y Wang and L Kneip},
+  Title = {Motion estimation of non-holonomic ground vehicles from a single feature correspondence measured over n views},
+  Booktitle = CVPR,
+  Address = {Long Beach, USA},
+  Month = {June},
+  Year = {2019}
+}
+
+@INPROCEEDINGS{campbell19,
+  Author = {D Campbell and L Petersson and L Kneip and H Li and S Gould},
+  Title = {The Alignment of the Spheres: Globally-Optimal Spherical Mixture Alignment for Camera Pose Estimation},
+  Booktitle = CVPR,
+  Address = {Long Beach, USA},
+  Month = {June},
+  Year = {2019}
+}
+
+@INPROCEEDINGS{peng19,
+  Author = {L Peng and X Song and M C Tsakiris and H Choi and L Kneip and Y Shi},
+  Title = {Algebraically-Initialized Expectation Maximization for Header-Free Communication},
+  Booktitle = {Proceedings of the {IEEE} International Conference on Accoustics, Speech and Signal Processing ({ICASSP})},
+  Address = {Brighton, UK},
+  Month = {May},
+  Year = {2019}
+}
+
 %2018
+
+@INPROCEEDINGS{hu18, 
+  Author = {L Hu and Y Cao and P Wu and L Kneip},
+  Title = {Dense object reconstruction from RGBD images with embedded deep shape representations},
+  Booktitle = {Asian Conference on Computer Vision ({ACCV}), Workshop on {RGB-D} - sensing and understanding via combined colour and depth},
+  Month = {December},
+  Year = {2018},
+  Address = {Perth, Australia} }
+
+@INPROCEEDINGS{zhou18,
+  Author = {Y Zhou and G Gallego and H Rebecq and L Kneip and H Li and D Scaramuzza},
+  Title = {Semi-Dense 3D Reconstruction with a Stereo Event Camera},
+  Booktitle = ECCV,
+  Address = {Munich, Germany},
+  Month = {September},
+  Year = {2018} }
 
 @INPROCEEDINGS{briales18,
   Author = {J Briales and L Kneip and J Gonzalez-Jimenez},
@@ -174,6 +347,15 @@
   Booktitle = CVPR,
   Address = {Salt Lake City},
   Month = {June},
+  Year = {2018},
+  Note = {Oral presentation} }
+
+@INPROCEEDINGS{zhang18,
+  Author = {J Zhang and V Ila and L Kneip},
+  Title = {Robust Visual Odometry in Underwater Environment},
+  Booktitle = {OCEANS’18 MTS/IEEE Kobe},
+  Address = {Kobe, Japan},
+  Month = {May},
   Year = {2018} }
 
 %2017
@@ -221,7 +403,7 @@
   Address = {Venice, Italy},
   Month = {October},
   Year = {2017},
-  Note = {Marr Prize Honourable Mention}
+  Note = {Oral presentation, Marr Prize (honourable mention)}
 }
 
 %2016
@@ -232,7 +414,8 @@
   Booktitle = ECCV,
   Address = {Amsterdam, Netherlands},
   Month = {October},
-  Year = {2016}
+  Year = {2016},
+  Note = {Oral presentation}
 }
 
 @INPROCEEDINGS{zhou16b,
@@ -241,7 +424,8 @@
   Booktitle = ACCV,
   Address = {Taipei, Taiwan},
   Month = {November},
-  Year = {2016}
+  Year = {2016},
+  Note = {Oral presentation}
 }
 
 @INPROCEEDINGS{zhou16a,
@@ -295,8 +479,7 @@
   Booktitle = WACV,
   Address = {Lake Placid, USA},
   Month = {March},
-  Year = {2016},
-  Note = {Accepted for publication}
+  Year = {2016}
 }
 
 %2015
@@ -484,7 +667,8 @@
   Booktitle = BMVC,
   Address = {Dundee, Scotland},
   Month = {August},
-  Year = {2011}
+  Year = {2011},
+  Note = {Oral presentation}
 }
 
 @INPROCEEDINGS{kneip11p3p,
@@ -528,6 +712,96 @@
 }
 
 %% MISCELLANEOUS
+
+@ARTICLE{hu19arxiv,
+  Author = {L Hu and W Xu and K Huang and L Kneip},
+  Title = {{Deep-SLAM++:} Object-level {RGBD SLAM} based on class-specific deep shape priors},
+  Journal = {{ArXiv e-prints}},
+  ArchivePrefix = {arXiv},
+  Eprint = {1907.09691},
+  PrimaryClass = {cs.CV},
+  Year = {2019}
+}
+
+@ARTICLE{campbell182,
+  Author = {D Campbell and L Petersson and L Kneip and H Li and S Gould},
+  Title = {The Alignment of the Spheres: Globally-Optimal Spherical Mixture Alignment for Camera Pose Estimation},
+  Journal = {{ArXiv e-prints}},
+  ArchivePrefix = {arXiv},
+  Eprint = {1812.01232},
+  PrimaryClass = {cs.CV},
+  Year = {2018}
+}
+
+@ARTICLE{wang18,
+  Author = {Z Wang and L Kneip},
+  Title = {Fully automatic structure from motion with a spline-based environment representation},
+  Journal = {{ArXiv e-prints}},
+  ArchivePrefix = {arXiv},
+  Eprint = {1810.12532},
+  PrimaryClass = {cs.CV},
+  Year = {2018}
+}
+
+@ARTICLE{tsakiris18,
+  Author = {M C Tsakiris and L Peng and A Conca and L Kneip and Y Shi and H Choi},
+  Title = {An Algebraic-Geometric Approach to Shuffled Linear Regression},
+  Journal = {{ArXiv e-prints}},
+  ArchivePrefix = {arXiv},
+  Eprint = {1810.05440},
+  PrimaryClass = {cs.LG},
+  Year = {2018}
+}
+
+@ARTICLE{hu18arxiv,
+  Author = {L Hu and Y Cao and P Wu and L Kneip},
+  Title = {Dense Object Reconstruction from {RGBD} Images with Embedded Deep Shape Representations},
+  Journal = {{ArXiv e-prints}},
+  ArchivePrefix = {arXiv},
+  Eprint = {1810.04891},
+  PrimaryClass = {cs.CV},
+  Year = {2018}
+}
+
+@ARTICLE{zhou18arxiv,
+  Author = {Y Zhou and G Gallego and H Rebecq and L Kneip and H Li and D Scaramuzza},
+  Title = {Semi-Dense 3D Reconstruction with a Stereo Event Camera},
+  Journal = {{ArXiv e-prints}},
+  ArchivePrefix = {arXiv},
+  Eprint = {1807.07429},
+  PrimaryClass = {cs.CV},
+  Year = {2018}
+}
+
+@ARTICLE{campbell17arxiv,
+  Author = {D Campbell and L Petersson and L Kneip and H Li},
+  Title = {Globally-Optimal Inlier Set Maximisation for Simultaneous Camera Pose and Feature Correspondence},
+  Journal = {{ArXiv e-prints}},
+  ArchivePrefix = {arXiv},
+  Eprint = {1709.09384},
+  PrimaryClass = {cs.CV},
+  Year = {2017}
+}
+
+@ARTICLE{zhou17arxiv,
+  Author = {Y Zhou and L Kneip and H Li},
+  Title = {Semi-Dense Visual Odometry for RGB-D Cameras Using Approximate Nearest Neighbour Fields},
+  Journal = {{ArXiv e-prints}},
+  ArchivePrefix = {arXiv},
+  Eprint = {1702.02512},
+  PrimaryClass = {cs.CV},
+  Year = {2017}
+}
+
+@ARTICLE{dai16arxiv,
+  Author = {Y Dai and H Li and L Kneip},
+  Title = {Rolling Shutter Camera Relative Pose: Generalized Epipolar Geometry},
+  Journal = {{ArXiv e-prints}},
+  ArchivePrefix = {arXiv},
+  Eprint = {1605.00475},
+  PrimaryClass = {cs.CV},
+  Year = {2016}
+}
 
 @ARTICLE{long16arxiv,
   Author = {G Long and L Kneip and J M Alvarez and H Li},
